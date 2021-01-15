@@ -1,0 +1,24 @@
+{
+  "name": "Test_Driven_Development_Training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdnanCodes/Test_Driven_Development_Training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdnanCodes/Test_Driven_Development_Training/issues"
+  },
+  "homepage": "https://github.com/AdnanCodes/Test_Driven_Development_Training#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
