@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/AdnanCodes/Test_Driven_Development_Training#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
     "chai": "^4.2.0",
     "mocha": "^8.2.1"
   }
