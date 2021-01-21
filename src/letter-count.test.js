@@ -12,4 +12,9 @@ describe("getLetterCount - basic functionaility", () => {
     const actual = getLetterCount("cat");
     expect(actual).to.deep.equal(expected);
   });
+  it("returns the corret letter ocunt for workds with more than of one certain letter", () => {
+    const expected = { m: 1, i: 4, s: 4, p: 2 };
+    const actual = getLetterCount("mississippi");
+    expect(actual).to.deep.equal(expected);
+  });
 });
